@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/tdl.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2 style="margin: 5px; color: white; text-align: center; padding-top: 30px;">Todos</h2>
+            <p style="color: white; text-align: center;">What are your plans today?</p>
+            <div class="clear">
+                <i class="fa fa-refresh"></i>
+            </div>
+            <div id="date"></div>
+        </div>
+        <div class="add-to-do">
+                <i class="fa fa-plus-circle" onclick="newItem()"></i>
+                <input type="text" id="input" placeholder="Add an item...">
+            </div>
+        <div class="content">
+            <ul id="list">
+               
+                <!-- <li class="item">
+                    <i class="fa fa-circle-thin co" job="complete" id="0"></i>
+                    <p class="text">Read on View and Riot JS</p>
+                    <i class="fa fa-trash-o de" job="delete" id="0"></i> 
+                </li> -->
+            </ul>
+        </div>
+    </div>
+    <script src="tdl.js"></script>
+</body>
+</html>
